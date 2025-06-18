@@ -4,5 +4,6 @@
 
 [[redirects]]
   from = "/admin"
-  to = "/admin/index.html"
+  to = "/admin/"
   status = 200
+  force = true
