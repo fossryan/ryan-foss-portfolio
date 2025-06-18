@@ -1,1 +1,8 @@
-Netlify Deploy Config
+[build]
+  publish = "."
+  command = ""
+
+[[redirects]]
+  from = "/admin"
+  to = "/admin/index.html"
+  status = 200
